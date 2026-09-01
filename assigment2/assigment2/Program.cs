@@ -22,29 +22,48 @@
 
     #region Question 2
 
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        //PART ONE MN ALSO2AL
+    //        string yearText = "2023";
+    //        int year = int.Parse(yearText);
+
+    //        Console.WriteLine(year);
+
+    //         // PART TWO
+
+    //        string badText = "abc";
+    //        int number;
+
+    //        if (int.TryParse(badText, out number))
+    //        {
+    //            Console.WriteLine(number);
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("Invalid number");
+    //        }
+    //    }
+    //}
+
+    #endregion
+
+
+
+    #region Question 3
+
     class Program
     {
         static void Main()
         {
-            //PART ONE MN ALSO2AL
-            string yearText = "2023";
-            int year = int.Parse(yearText);
+            int pages = 464;
 
-            Console.WriteLine(year);
+            string pagesText = pages.ToString();
 
-             // PART TWO
-
-            string badText = "abc";
-            int number;
-
-            if (int.TryParse(badText, out number))
-            {
-                Console.WriteLine(number);
-            }
-            else
-            {
-                Console.WriteLine("Invalid number");
-            }
+            Console.WriteLine(pagesText);
+            Console.WriteLine(pagesText.GetType());
         }
     }
 
