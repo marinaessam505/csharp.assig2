@@ -73,22 +73,45 @@
 
     #region Question 4
 
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int copies = 100;
+
+    //         //BOXING
+
+    //        object obj = copies;    
+
+    //        //UNBOXING
+
+    //        int newCopies = (int)obj; 
+
+    //        Console.WriteLine(copies);
+    //        Console.WriteLine(newCopies);
+    //    }
+    //}
+
+    #endregion
+
+
+
+    #region Question 5
+
     class Program
     {
         static void Main()
         {
-            int copies = 100;
+            int pages = 464;
 
-             //BOXING
-
-            object obj = copies;    
-            
-            //UNBOXING
-
-            int newCopies = (int)obj; 
-
-            Console.WriteLine(copies);
-            Console.WriteLine(newCopies);
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
         }
     }
 
