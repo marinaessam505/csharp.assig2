@@ -1,10 +1,21 @@
 ﻿namespace assigment2
 {
-    internal class Program
+
+    #region Q1
+
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            
+
+            string Text = "464";
+            int pages = Convert.ToInt32(Text);
+
+            Console.WriteLine(pages);
+
+            
         }
     }
+    #endregion
 }
