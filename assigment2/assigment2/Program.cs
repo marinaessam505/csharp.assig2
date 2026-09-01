@@ -54,16 +54,41 @@
 
     #region Question 3
 
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int pages = 464;
+
+    //        string pagesText = pages.ToString();
+
+    //        Console.WriteLine(pagesText);
+    //        Console.WriteLine(pagesText.GetType());
+    //    }
+    //}
+
+    #endregion
+
+
+
+    #region Question 4
+
     class Program
     {
         static void Main()
         {
-            int pages = 464;
+            int copies = 100;
 
-            string pagesText = pages.ToString();
+             //BOXING
 
-            Console.WriteLine(pagesText);
-            Console.WriteLine(pagesText.GetType());
+            object obj = copies;    
+            
+            //UNBOXING
+
+            int newCopies = (int)obj; 
+
+            Console.WriteLine(copies);
+            Console.WriteLine(newCopies);
         }
     }
 
