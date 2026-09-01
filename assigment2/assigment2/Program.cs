@@ -98,24 +98,49 @@
 
     #region Question 5
 
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int pages = 464;
+
+    //        if (pages > 300)
+    //        {
+    //            Console.WriteLine("Long Book");
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("Short Book");
+    //        }
+    //    }
+    //}
+
+    #endregion
+
+
+
+
+    #region Question 6
+
     class Program
     {
         static void Main()
         {
             int pages = 464;
+            bool isAvailable = true;
 
-            if (pages > 300)
+            if (pages > 300 && isAvailable == true)
             {
-                Console.WriteLine("Long Book");
-            }
-            else
-            {
-                Console.WriteLine("Short Book");
+                Console.WriteLine("You can borrow this book");
             }
         }
     }
 
     #endregion
+
+
+
+
 
 
 
